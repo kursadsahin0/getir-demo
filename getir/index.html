@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+    </style>
+    <title>Getir - Dakikalar İçinde Kapınızda </title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="row1">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5 mt-2" id="headers">
+                <button href="#" class="font-type">
+                    getir
+                </button>
+                <button href="#" class="whiteGetir">
+                    getiryemek
+                </button>
+                <button href="#" class="whiteGetir">
+                    getirbüyük
+                </button>
+                <button href="#" class="whiteGetir">
+                    getirsu
+                </button>
+                <button href="#" class="whiteGetir">
+                    getirçarşı
+                </button>
+            </div>
+            <div class="col-sm-2"></div>
+
+            <div class="col-sm-3 mt-3" style="color: white;" id="headers">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-globe"
+                    viewBox="0 0 16 16" style="color: white;">
+                    <path
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+
+                </svg> Türkçe(TR)
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                </svg> Giriş Yap
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-person-plus-fill" viewBox="0 0 16 16">
+                    <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    <path fill-rule="evenodd"
+                        d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z" />
+                </svg> Kayıt Ol
+            </div>
+            <div class="col-sm-1"></div>
+
+
+        </div>
+    </div>
+
+    <img src="images/image1.jpg" alt="acilis" id="image1">
+    <img src="images/image2.png" id="image2">
+    <h1 style="color: white;">Dakikalar içinde <br> kapınızda</h1>
+
+    <div class="contact" style=" width: 30%;">
+        <center>
+            <h5 style=" color: #6045b7;">Giriş yap veya kayıt ol</h5>
+        </center><br>
+        <center> <select name="number" id="number">
+                <option>TR +90</option>
+                <option>USA +1</option>
+                <option>AR +54</option>
+                <option>GB +44</option>
+                <option>BR +55</option>
+            </select>
+            <input type="tel" placeholder="Telefon Numarası" id="telNum">
+        </center><br>
+        <center> <button id="tel">Telefon numarası ile devam et </button></center>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <h6 style="padding-top: 15%;">Kategoriler</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12" class="categories">
+
+                <button type="button" class="btns">
+                    <img src="images/yeniUrunler.jpg" width="50%" />
+                    <br />
+                    Yeni Ürünler
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/suIcecek.jpeg" width="50%" />
+                    <br />
+                    Su & İçecek
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/meyveSebze.jpeg" width="50%" />
+                    <br />
+                    Meyve & Sebze
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/firin.jpeg" width="50%" />
+                    <br />
+                    Fırından
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/temelGida.jpeg" width="50%" />
+                    <br />
+                    Temel Gıda
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/atistirmalik.jpeg" width="50%" />
+                    <br />
+                    Atıştırmalık
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/dondurma.jpeg" width="50%" />
+                    <br />
+                    Dondurma
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/sütUrünleri.jpeg" width="50%" />
+                    <br />
+                    Süt Ürünleri
+                </button>
+
+                <button type="button" class="btns">
+                    <img src="images/kahvaltilik.jpeg" width="50%" />
+                    <br />
+                    Kahvaltılık
+                </button>
+                <br><br>
+                <button type="button" class="btns">
+                    <img src="images/fitForm.jpeg" width="50%" />
+                    <br />
+                    Fit & Form
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/kisiselBakim.jpeg" width="50%" />
+                    <br />
+                    Kişisel Bakım
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/evBakim.jpeg" width="50%" />
+                    <br />
+                    Ev Bakımı
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/evYasam.jpeg" width="50%" />
+                    <br />
+                    Ev & Yaşam
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/teknoloji.jpeg" width="50%" />
+                    <br />
+                    Teknoloji
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/evcilHayvan.jpeg" width="50%" />
+                    <br />
+                    Evcil Hayvan
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/bebek.jpeg" width="50%" />
+                    <br />
+                    Bebek
+                </button>
+                <button type="button" class="btns">
+                    <img src="images/cinselSaglık.jpeg" width="50%" />
+                    <br /> Cinsel Sağlık </button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-2">
+                <h6>Kampanyalar</h6>
+            </div>
+        </div>
+    </div>
+    <img src="images/kampanya1.jpeg" id="kampanya1">
+    <img src="images/kampanya2.jpeg" class="kampanya2"> <br><br>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12" id="product">
+                <button type="button" class="product">
+                    <img src="images/kuzeydenSu.jpeg" width="100%" />
+                    <br /> ₺3,95 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Kuzeyden</a><br>
+                    <a href="#" style="text-decoration: none; color:grey;">1,5 L</a>
+
+                </button>
+                <button type="button" class="product">
+                    <img src="images/kizilaySoda.jpeg" width="100%" />
+                    <br /> ₺7,75 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Kızılay Erzincan</a><br>
+                    <a href="#" style="text-decoration: none; color:grey;">6 x 200 ml</a>
+
+                </button>
+                <button type="button" class="product">
+                    <img src="images/napoliten.jpeg" width="100%" />
+                    <br /> <del>₺5,50</del> ₺4,40 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Ülker Napoliten</a><br>
+                    <a href="#" style="text-decoration: none; color:grey;">33 g</a>
+
+                </button>
+                <button type="button" class="product">
+                    <img src="images/laysCips.jpeg" width="100%" />
+                    <br />₺8,95 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Lay's Mevsim Yeşillikli</a><br>
+                    <a href="#" style="text-decoration: none; color:grey;">96 g</a>
+
+                </button>
+
+
+                </button>
+                <button type="button" class="product">
+                    <img src="images/siyahCekirdek.jpeg" width="100%" />
+                    <br />₺9,85 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Kavrulmuş Siyah Ay Çekirdeği</a><br>
+                    <a href="#" style="text-decoration: none; color:grey;">180 g</a>
+
+                </button>
+                <button type="button" class="product">
+                    <img src="images/magnum.jpeg" width="100%" />
+                    <br />₺11,50 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Magnum Badem</a><br>
+                    <a href="#" style="text-decoration: none; color:grey;">100 ml</a>
+
+                </button>
+                <button type="button" class="product">
+                    <img src="images/unoTost.jpeg" width="100%" />
+                    <br />₺10,95 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Uno Tost Ekmeği</a><br>
+                    <a href="#" style="text-decoration: none; color:grey;">350 g</a>
+
+                </button>
+                <button type="button" class="product">
+                    <img src="images/icimSüt.jpeg" width="100%" />
+                    <br />₺12,95 <br>
+                    <a href="#" style="text-decoration: none; color:black;">İçim %3 Yağlı Süt</a><br>
+                    <a href="#" style="text-decoration: none; color:grey;">1 L</a>
+
+                </button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12" id="product">
+                <button type="button" class="product">
+                    <img src="images/peynir.jpeg" width="100%" />
+                    <br /> ₺30,95 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Bahçıvan Süzme Peynir</a><br>
+                    <a href="#" style="text-decoration: none; color:black;">500 g</a>
+
+                </button>
+                <button type="button" class="product">
+                    <img src="images/zeytin.jpeg" width="100%" />
+                    <br /> ₺39,90 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Hertane Kuru Sele Zeytin</a><br>
+                    <a href="#" style="text-decoration: none; color:black;">285 g</a>
+
+                </button>
+                <button type="button" class="product">
+                    <img src="images/makarna.jpeg" width="100%" />
+                    <br /> ₺7,50<br>
+                    <a href="#" style="text-decoration: none; color:black;">Nuh'un Ankara Spaghetti</a><br>
+                    <a href="#" style="text-decoration: none; color:black;">500 g</a>
+
+                </button>
+                <button type="button" class="product">
+                    <img src="images/disMacunu.jpeg" width="100%" />
+                    <br />₺39,90 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Colgate Optik White</a><br>
+                    <a href="#" style="text-decoration: none; color:black;">75 ml</a>
+
+                </button>
+                <button type="button" class="product">
+                    <img src="images/sampuan.jpeg" width="100%" />
+                    <br />₺37,50 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Elidor Güçlü ve Parlak Şampuan</a><br>
+                    <a href="#" style="text-decoration: none; color:black;">650 ml</a>
+
+                </button>
+                <button type="button" class="product">
+                    <img src="images/tuvaletKagidi.jpeg" width="100%" />
+                    <br /> ₺55,90 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Solo Tuvalet Kağıdı</a><br>
+                    <a href="#" style="text-decoration: none; color:black;">16'lı</a>
+
+                </button>
+
+                <button type="button" class="product">
+                    <img src="images/yumos.jpeg" width="100%" />
+                    <br />₺10,95 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Yumoş Extra Orkide Yasemin</a><br>
+                    <a href="#" style="text-decoration: none; color:black;">1440 ml</a>
+
+                </button>
+                <button type="button" class="product">
+                    <img src="images/domestos.jpeg" width="100%" />
+                    <br />₺14,75 <br>
+                    <a href="#" style="text-decoration: none; color:black;">Domestos Dağ Esintisi</a><br>
+                    <a href="#" style="text-decoration: none; color:black;">750 ml</a>
+
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="images/getirIndir.PNG" width="100%" style="border-radius: 5px;height: 90%;">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div id="text">
+                    <center> <img
+                            src="https://getir.com/_next/static/images/intro-in-minutes-a7a9238a73013642a6597c4db06653c1.svg"
+                            style="margin-top: 5%;"></center>
+                    <center>
+                        <h5 style="color: #6045b7;">Her siparişinize bir kampanya</h5>
+                    </center>
+                    <center>
+                        <p style="color: grey;">Getir’de vereceğiniz her siparişe uygun bir kampanya bulabilirsiniz.</p>
+                    </center>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div id="text">
+                    <center> <img
+                            src="https://getir.com/_next/static/images/intro-market-courier-34cd8b0ca1d547580d506566edfacf8d.svg"
+                            style="margin-top: 5%;"></center>
+                    <center>
+                        <h5 style="color: #6045b7;">Dakikalar içinde kapınızda</h5>
+                    </center>
+                    <center>
+                        <p style="color: grey;">Getir’le siparişiniz dakikalar içinde kapınıza gelir.</p>
+                    </center>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div id="text">
+                    <center> <img
+                            src="https://getir.com/_next/static/images/intro-discount-6248544cb695830a2e25debd3c0f3d29.svg"
+                            style="margin-top: 5%;"></center>
+                    <center>
+                        <h5 style="color: #6045b7;">Binlerce çeşit mutluluk</h5>
+                    </center>
+                    <center>
+                        <p style="color: grey;">Getir’de binlerce çeşit arasından seçiminizi yapabilirsiniz.</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+           
+            <div class="col-sm-3">
+                <ul style="list-style-type: none; ">
+                    <li>
+                        <h6 style="color: #6045b7;">Getir'i indirin</h6>
+                    </li>
+                    <li>
+                        <img
+                            src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg">
+                    </li>
+                    <br>
+                    <li>
+                        <img
+                            src="https://getir.com/_next/static/images/googleplay-tr-6b0c941b7d1a65d781fb4b644498be75.svg">
+                    </li>
+                    <br>
+                    <li>
+                        <img
+                            src="https://getir.com/_next/static/images/huawei-appgallery-tr-4b890fa3167bc62f9069edaf45aa7f30.svg">
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <h5 style="color: #6045b7;">Getir'i keşfedin</h5>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none;color:black">Hakkımızda</a>
+                    </li>
+
+                    <li>
+                        <a href="#"style="text-decoration: none;color:black">Kariyer</a>
+                    </li>
+
+                    <li>
+                        <a href="#"style="text-decoration: none;color:black">Teknoloji kariyerleri</a>
+                    </li>
+                    <li>
+                        <a href="#"style="text-decoration: none;color:black">İletişim</a>
+                    </li>
+                    <li>
+                        <a href="#"style="text-decoration: none;color:black">COVID-19 Duyuru</a>
+                    </li>
+                    <li>
+                        <a href="#"style="text-decoration: none;color:black">Sosyal Sorumluluk Projeleri</a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+<div class="col-sm-3">
+    <ul style="list-style-type: none;">
+        <li>
+            <h5 style="color: #6045b7;">Yardıma mı ihtiyacınız var?</h5>
+        </li>
+        <li>
+            <a href="#" style="text-decoration: none;color:black">Sıkça Sorulan Sorular</a>
+        </li>
+
+        <li>
+            <a href="#"style="text-decoration: none;color:black">Kişisel Verilerin Korunması</a>
+        </li>
+
+        <li>
+            <a href="#"style="text-decoration: none;color:black">Gizlilik Politikası</a>
+        </li>
+        <li>
+            <a href="#"style="text-decoration: none;color:black">Kullanım Koşulları</a>
+        </li>
+        <li>
+            <a href="#"style="text-decoration: none;color:black">COVID-19 Duyuru</a>
+        </li>
+        <li>
+            <a href="#"style="text-decoration: none;color:black">Çerez Politikası</a>
+        </li>
+
+    </ul>
+
+
+</div>
+
+<div class="col-sm-2">
+    <ul style="list-style-type: none;">
+        <li>
+            <h5 style="color: #6045b7;">İş Ortağımız Olun</h5>
+        </li>
+        <li>
+            <a href="#" style="text-decoration: none;color:black">Bayimiz Olun</a>
+        </li>
+
+        <li>
+            <a href="#"style="text-decoration: none;color:black">Deponuzu Kiralayın</a>
+        </li>
+
+        <li>
+            <a href="#"style="text-decoration: none;color:black">GetirYemek Restoranı Olun</a>
+        </li>
+        <li>
+            <a href="#"style="text-decoration: none;color:black">GetirÇarşı İşletmesi Olun</a>
+        </li>
+       
+
+    </ul>
+</div>
+<div class="col-sm-1">
+    <img src="https://getir.com/_next/static/images/etbis-33c159729adc8b4e2b946310f038d2f4.png" width="100%" style="margin-top:20% ;">
+</div>
+
+        </div>
+    </div>
+</body>
+
+</html>

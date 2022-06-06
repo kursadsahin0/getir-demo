@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+.font-type{
+    font-family: 'Rubik Bubbles', cursive;
+    color: #ffd300;
+    text-decoration: none;
+    font-size: 120%;
+    background-color: #6045b7;
+    border: none;
+    height: 103%;
+    width: 10%;
+   border-top-right-radius: 10%;
+   border-top-left-radius: 10%;
+}
+
+#row1{
+    background-color: #4c3398;
+height: 50px;
+}
+
+.whiteGetir{
+    font-family: 'Rubik Bubbles', cursive;
+    color: whitesmoke;
+    background-color: #4c3398;
+    border: none;
+}
+.whiteGetir:hover{
+    background-color: #6045b7;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+#headers{
+    display: flex;
+    justify-content: space-between;
+}
+#image1{
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+  
+}
+
+#image2{
+    position: absolute;
+    left: 10%;
+    width: 13%;
+    top: 22%;
+}
+
+h1{
+    position: absolute;
+    left: 10%;
+    top: 55%;
+  
+}
+#number{
+   border-color: grey;
+   width: 100px;
+  height: 50px;
+  line-height: 50px;
+  border: solid 2px;
+ 
+}
+
+#number:hover{
+    border-color: #6045b7;
+}
+#telNum{
+    border-color: grey;
+    width: 220px;
+   height: 50px;
+   line-height: 50px;
+   border: solid 2px;
+}
+
+#telNumber:hover{
+    border-color: #6045b7;
+}
+#tel{
+    width: 300px;
+    height: 50px;
+    
+	/* background:linear-gradient(to bottom, #ffd300 5%, #ffd300 100%); */
+	background-color:#ffd300;
+	border-radius:4px;
+	border:1px solid #ffd300;
+	/* display:inline-block; */
+	
+	color:#6045b7;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	
+	
+}
+#tel:hover{
+    background-color: #6045b7;
+    color: #ffd300;
+    border:1px solid #6045b7;
+}
+
+.contact{
+  background-color: white;
+ 
+  position: absolute;
+  left: 65%;
+  height: 30%;
+ top: 22%;
+ border-radius: 10px;
+}
+
+h5{
+    padding-top: 5%;
+   
+}
+.categories{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btns{
+    width: 10%;
+    border: none;
+    background-color: white;
+}
+
+.btns:hover{
+    background-color: #e1dbf3;
+    color: #6045b7;
+   
+}
+#kampanya1{
+    border-radius: 10px;
+    width: 30%;
+    padding-right: 1%;
+    padding-left: 7%;
+   
+}
+.kampanya2{
+    width: 22%;
+    padding-right: 0%;
+    border-radius: 10px;
+    
+}
+.product{
+    width: 10%;
+    border: none;
+    background-color: white;
+    color: #6045b7;
+}
+del{
+    color: grey;
+}
+
+#product{
+    display: flex;
+    justify-content: space-between;
+}
+#text{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 235, 235);
+    border-radius: 5px;
+}
